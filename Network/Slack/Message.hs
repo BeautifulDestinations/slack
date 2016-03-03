@@ -22,8 +22,7 @@ import Network.Slack.User (User(..), userFromId)
 import Network.Slack.Channel (Channel(..))
 
 import Data.Time.Clock (UTCTime, getCurrentTime, addUTCTime)
-import Data.Time.Format (parseTime, formatTime)
-import System.Locale (defaultTimeLocale)
+import Data.Time.Format (parseTime, formatTime, defaultTimeLocale)
 import Network.HTTP.Types (urlEncode)
 import qualified Data.ByteString.Char8 as BS
 
